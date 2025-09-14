@@ -1,7 +1,7 @@
 (footprint "SW4_SKRPABE010_ALPS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "SKRPABE010 ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cfc57557-d2d0-4763-ac54-10a534a8068a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -112,7 +100,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "3793f087-9fe5-4259-a423-3c96e489e130")
 	)
@@ -294,7 +282,7 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9f60c442-b696-4008-8662-67944718270c")
 	)
@@ -313,28 +301,29 @@
 	(pad "1" smd rect
 		(at -1.074999 -2.075)
 		(size 0.6604 1.0414)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9570ed6a-7f96-4482-8e3f-3aa1c88b352a")
 	)
 	(pad "2" smd rect
 		(at -1.074999 2.075)
 		(size 0.6604 1.0414)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9ee62bc2-861a-4fa0-ab23-dbba93a68135")
 	)
 	(pad "3" smd rect
 		(at 1.074999 -2.075)
 		(size 0.6604 1.0414)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "17ec5016-bf25-444c-a08a-4da920a38c7a")
 	)
 	(pad "4" smd rect
 		(at 1.074999 2.075)
 		(size 0.6604 1.0414)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "22718173-c7e1-43fd-9129-8d6a660ce647")
 	)
-	(model "${KIPRJMOD}/Components/SKRPABE010/SKRPAB.stp"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Components/SKRPABE010/SKRPABE010.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -342,7 +331,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz -90 -0 -90)
 		)
 	)
 )
