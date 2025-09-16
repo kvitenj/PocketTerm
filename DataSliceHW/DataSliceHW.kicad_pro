@@ -583,7 +583,7 @@
       "plot": "../../../Downloads/PCBWay/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "DataSliceHW.step",
       "svg": "",
       "vrml": ""
     },

@@ -1,6 +1,9 @@
 #Components info and Datasheets, redistribution is prohibited
 Components
 
+*.zip
+DataSliceHW.step
+
 # Below section created by https://gitignore.org
 # KiCad.gitignore
 
@@ -44,5 +47,3 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
-
-*.zip
