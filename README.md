@@ -1,4 +1,4 @@
-# DataSlice
+# PocketTerminal
 
 A credit card-sized computer for wireless and wired communication debugging
 
@@ -10,7 +10,7 @@ A credit card-sized computer for wireless and wired communication debugging
 
 The project is inspired by the [M5Stack Cardputer](https://docs.m5stack.com/en/core/Cardputer%20V1.1).
 
-The key features of the DataSlice:
+The key features:
 
 - Credit card size to easily fit in any pocket
 - QWERTY tactile keyboard for easy and fast command and data input
@@ -18,7 +18,7 @@ The key features of the DataSlice:
 - ESP32 module as a central processing unit capable of Bluetooth and WiFi communication
 - SD card slot for Data storage
 - Large and slim battery for long-term operation
-- RS-232, UART, SPI, I2C I/O for wired communication debugging
+- UART, SPI, I2C I/O for wired communication debugging
 - CC1101 and LoRa transceivers for wireless communication debugging
 
 ---
@@ -27,7 +27,7 @@ The key features of the DataSlice:
 
 | File | Description |
 |------|-------------|
-| `DataSliceHW` | Folder containing the KiCAD project for the DataSlice PCB and Schematic |
+| `PocketTerminalHW` | Folder containing the KiCAD project, PCB and Schematic |
 | `images` | Folder containing the concept renders | 
 | `LICENSE` | This repository license file |
 | `README.md` | This file |
