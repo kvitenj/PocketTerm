@@ -2,7 +2,7 @@
 Components
 
 *.zip
-DataSliceHW.step
+*.step
 
 # Below section created by https://gitignore.org
 # KiCad.gitignore

@@ -438,7 +438,7 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "ignore",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DataSliceHW.kicad_pro",
+    "filename": "PocketTerminalHW.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -579,11 +579,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "DataSliceHW.net",
+      "netlist": "PocketTerminalHW.net",
       "plot": "../../../Downloads/PCBWay/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "DataSliceHW.step",
+      "step": "PocketTerminalHW.step",
       "svg": "",
       "vrml": ""
     },

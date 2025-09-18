@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PocketTerminal")(type "KiCad")(uri "${KIPRJMOD}/PocketTerminal.pretty")(options "")(descr ""))
+)
