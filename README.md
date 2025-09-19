@@ -2,7 +2,7 @@
 
 A credit card-sized computer for wireless and wired communication debugging
 
-<img src="images/concept_front.png" alt="concept_front" height="200"/><img src="images/concept_side.png" alt="concept_side" height="200"/><img src="images/concept_back.png" alt="concept_back" height="200"/>
+<img src="images/board_front.png" alt="board_front" height="200"/><img src="images/board_side.png" alt="board_side" height="200"/><img src="images/board_back.png" alt="board_back" height="200"/>
 
 ---
 
@@ -18,8 +18,8 @@ The key features:
 - ESP32 module as a central processing unit capable of Bluetooth and WiFi communication
 - SD card slot for Data storage
 - Large and slim battery for long-term operation
-- UART, SPI, I2C I/O for wired communication debugging
-- CC1101 and LoRa transceivers for wireless communication debugging
+- UART, SPI, I2C(TBD) I/O for wired communication debugging
+- CC1101 and LoRa(TBD) transceivers for wireless communication debugging
 
 ---
 
