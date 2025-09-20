@@ -18416,16 +18416,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 142.24) (xy 304.8 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a028a981-31ee-4926-b912-8260691c4105")
-	)
-	(wire
-		(pts
 			(xy 279.4 227.33) (xy 279.4 236.22)
 		)
 		(stroke
@@ -24327,15 +24317,16 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 304.8 142.24 0)
+		(at 304.8 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0a9a8c5b-8148-4f99-938d-ae854969d1e7")
-		(property "Reference" "#PWR028"
-			(at 304.8 146.05 0)
+		(property "Reference" "#PWR029"
+			(at 300.99 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24344,15 +24335,16 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 304.8 138.176 0)
+			(at 308.61 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 142.24 0)
+			(at 304.8 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24361,7 +24353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 142.24 0)
+			(at 304.8 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24370,7 +24362,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 304.8 142.24 0)
+			(at 304.8 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24384,7 +24376,7 @@
 		(instances
 			(project "DataSliceHW"
 				(path "/d4e30896-6a83-44e5-8243-667f1b9ab939"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -42763,7 +42755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd518338-d304-4eb0-862b-55b640064414")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 248.92 149.86 0)
 			(effects
 				(font
@@ -42813,7 +42805,7 @@
 		(instances
 			(project "DataSliceHW"
 				(path "/d4e30896-6a83-44e5-8243-667f1b9ab939"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
